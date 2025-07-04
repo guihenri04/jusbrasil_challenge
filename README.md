@@ -33,18 +33,17 @@ A forma mais simples e recomendada de executar o projeto é utilizando Docker.
 
 ```bash
 # 1. Clone o repositório
-git clone <url-do-seu-repositorio>
-cd desafio_jusbrasil
+git clone (https://github.com/guihenri04/jusbrasil_challenge.git)
+cd jusbrasil_challenge
 
 # 2. Suba os serviços com Docker Compose
-# O comando '--build' garante que as imagens serão construídas do zero.
 docker compose up --build
 ```
 
 Após a execução, os serviços estarão disponíveis nos seguintes endereços:
 
 - **Aplicação Frontend**: `http://localhost:3000`
-- **Playground GraphQL**: `http://localhost:4000/graphql`
+- **GraphQL**: `http://localhost:4000/graphql`
 - **API Health Check**: `http://localhost:4000/health`
 
 ## Estrutura do Projeto
