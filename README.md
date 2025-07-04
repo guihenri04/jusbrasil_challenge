@@ -13,7 +13,7 @@ Este repositório contém a implementação de um sistema de busca com auto-comp
 
 - **Busca Dinâmica**: As sugestões são atualizadas em tempo real conforme o usuário digita.
 - **Requisitos de Exibição**:
-    - As sugestões aparecem após a digitação de no mínimo 4 caracteres.
+    - As sugestões aparecem após a digitação de no mínimo 1 caractere.
     - O backend retorna um máximo de 20 sugestões, com 10 sendo visíveis inicialmente e as demais acessíveis via scroll.
 - **Interface Intuitiva**:
     - O termo pesquisado é destacado em negrito nas sugestões.
